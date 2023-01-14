@@ -48,5 +48,27 @@ The difference between the null deviance and the residual deviance is a good ind
 
 This association is an important procedure assessing the predictive ability of a model. They are based on the number of pairs of observations with different response values, the number of concordant pairs, and the number of discordant pairs. A pair of observations with different observed responses is said to be concordant if the observation with the lower ordered response value has a lower predicted mean score than the observation with the higher ordered response value. If the observation with the lower ordered response value has a higher predicted mean score than the observation with the higher ordered response value, then the pair is discordant. If the pair is neither concordant nor discordant, it is a tie.
 
+-   **Somer's D**
 
+Somers' D which is short for Somers' Delta, is a measure of the strength and direction of the association between an ordinal dependent variable and an ordinal independent variable. Somer's D can be a good indicator of fitness of model in logistic regression.
+
+An ordinal variable is one in which the values have a natural order (e.g., "bad", "neutral", "good"). The value for Somers' D ranges between -1 and 1 where:
+
+-1: Indicates that all pairs of the variables disagree
+
+ 1: Indicates that all pairs of the variables agree
+
+The formula is written as:
+
+![Somer's D](/Images/image10.png)
+
+-   **Goodman-Kruskal Gamma**
+
+> Goodman-Kruskal gamma (γ) shows how many more concordant than discordant pairs exist divided by the total number of pairs excluding ties. The use the Goodman-Kruskal gamma to measure the association between the ordinal variables is another important indicator of the fitness of model in logistic regression.
+>
+> Perfect association exists when \|γ\| = 1. In ordinal and binary logistic regression, if X and Y are independent, then γ = 0.
+
+The formula is written as:
+
+> **GAMMA =** **(N~C~ -- N~D~) / (N~C~ + N~D~)**
 
