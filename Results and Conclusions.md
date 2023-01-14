@@ -6,13 +6,15 @@ The results from our full model and reduced model didn't differ as much except t
 
 Full model:
 
-![](10)
+![Full Model](/Images/image23.png)
 
 Reduced model:
 
-![](11)
+![Reduced Model](/Images/image24.png)
 
 As we can see, our AIC went down by 10 points which is a great indication of a better fit for our model.
+
+![AIC](/Images/image25.png)
 
 
 Moreover, looking at the importance of the predictors, we see that our reduced model has the predictors that has the importance to our prediction. We see that Age, Ejection Fraction, Serum Creatinine and Time are highly significant to the model which are all presented in our reduced model.
