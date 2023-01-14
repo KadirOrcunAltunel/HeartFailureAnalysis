@@ -1,4 +1,4 @@
-**Background**
+***Background***
 
 Cardiovascular diseases are conditions that affect the structures or function of the heart. It is the leading cause of death in the U.S. About 659,000 people in the U.S. die from heart disease each year; that’s 1 in every 4 deaths. Most cardiovascular disease affects older adults. In the United States 11% of people between 20 and 40 have CVD, while 37% between 40 and 60, 71% of people between 60 and 80, and 85% of people over 80 have cardiovascular diseases. Heart failure is a condition that develops when heart doesn’t pump enough blood for body’s needs. This can happen if heart can’t fill up with enough blood or it is too weak to pump properly. The term Heart failure is a serious condition that needs medical care. Three main phenotypes describe heart failure according to the measurement of the left ventricle ejection fraction (EF), and the differentiation between these types is important due to different demographics, co-morbidities, and response to therapies:
 
@@ -20,10 +20,6 @@ Given the importance of a vital organ like heart, predicting cardiovascular dise
 In this paper, I analyzed a dataset of medical records of patients having heart failure released by Ahmad and colleagues in July 2017. Ahmad and colleagues employed traditional biostatistics time-dependent models to predict mortality and identify the key features of 299 Pakistan patients having heart failure, from their medical records.
 
 I used logistic regression to predict survival rate of patients with heart failure. Using the dataset, I implemented various methods such as backward stepwise regression and Area Under the Curve" (AUC) of "Receiver Characteristic Operator" (ROC) which will be discussed in *Methods* section of the paper. Finally, I discuss the results from the methodology and draw conclusions in *Results* section of the paper.
-
-***Dataset***
-
-I analyzed a dataset containing the medical records of 299 heart failure patients collected at the Faisalabad Institute of Cardiology and at the Allied Hospital in Faisalabad (Punjab, Pakistan), during April--December 2015. The patients consisted of 105 women and 194 men, and their ages range between 40 and 95 years old. All 299 patients had left ventricular systolic dysfunction and had previous heart failures that put them in classes III or IV of New York Heart Association (NYHA) classification of the stages of heart failure.
 
 
 
