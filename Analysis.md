@@ -14,3 +14,16 @@ All patients with HFrEF have concomitant diastolic dysfunction; in contrast, dia
 Doctors usually classify patients\' heart failure according to the severity of their symptoms. The table below describes the most used classification system, the New York Heart Association (NYHA) Functional Classification. It places patients in one of four categories based on how much they are limited during physical activity.
 
 ![Classification](/Images/image3.png)
+
+Given the importance of a vital organ like heart, predicting cardiovascular diseases has become a priority for doctors. Though there have been various predictions made before, most of them failed to provide high accuracy. However, electronic health records (EHRs) have been a crucial tool to provide a great source of information regarding hidden and not so obvious correlations between patients' data and risk factors to assess and better understand cardiovascular disease risks.
+
+In this paper, I analyzed a dataset of medical records of patients having heart failure released by Ahmad and colleagues in July 2017. Ahmad and colleagues employed traditional biostatistics time-dependent models to predict mortality and identify the key features of 299 Pakistan patients having heart failure, from their medical records.
+
+I used logistic regression to predict survival rate of patients with heart failure. Using the dataset, I implemented various methods such as backward stepwise regression and Area Under the Curve" (AUC) of "Receiver Characteristic Operator" (ROC) which will be discussed in *Methods* section of the paper. Finally, I discuss the results from the methodology and draw conclusions in *Results* section of the paper.
+
+***Dataset***
+
+I analyzed a dataset containing the medical records of 299 heart failure patients collected at the Faisalabad Institute of Cardiology and at the Allied Hospital in Faisalabad (Punjab, Pakistan), during April--December 2015. The patients consisted of 105 women and 194 men, and their ages range between 40 and 95 years old. All 299 patients had left ventricular systolic dysfunction and had previous heart failures that put them in classes III or IV of New York Heart Association (NYHA) classification of the stages of heart failure.
+
+
+
