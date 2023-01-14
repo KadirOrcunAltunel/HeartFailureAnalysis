@@ -147,11 +147,11 @@ Our confusion matrix and statistics also show a high accuracy rate at 0.84 with 
 
 Here's our ROC:
 
-![ROC][/Images/image21.png]
+![ROC](/Images/image21.png)
 
 And our AUC is:
 
-![AUC][/Images/image22.png]
+![AUC](/Images/image22.png)
 
 This result also shows that our model is a good fit at 0.89
 
