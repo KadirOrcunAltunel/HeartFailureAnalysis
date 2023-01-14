@@ -7,3 +7,8 @@ Cardiovascular diseases are conditions that affect the structures or function of
 -   Heart failure with preserved EF (HFpEF): EF is greater than or equal to 50%
 
 -   Heart failure with mid-range EF (HFmrEF) (other names are: HFpEF-borderline and HFpEF-improved when EF in HFrEF improves to greater than 40%): EF is 41% to 49% per European guidelines and 40 to 49% per the US guidelines. A new class of HF that introduced by the 2016 European Society of Cardiology (ESC) guidelines for diagnosis and management of HF. This class was known as the grey area between the HFpEF and HFrEF and now has its distinct entity by giving it a name as HFmrEF.
+
+
+All patients with HFrEF have concomitant diastolic dysfunction; in contrast, diastolic dysfunction may occur in the absence of systolic dysfunction.
+
+Doctors usually classify patients\' heart failure according to the severity of their symptoms. The table below describes the most used classification system, the New York Heart Association (NYHA) Functional Classification. It places patients in one of four categories based on how much they are limited during physical activity.
