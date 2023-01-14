@@ -1,4 +1,4 @@
-**References:**
+# References:
 
 <https://stats.idre.ucla.edu/r/dae/logit-regression/>
 
