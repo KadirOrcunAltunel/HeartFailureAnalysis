@@ -1,4 +1,4 @@
-**Results and Conclusions**
+# Results and Conclusions
 
 Comparing our full model and reduced model, we can clearly see that using significant predictors alone can help doctors predict heart failure survival in patients.
 
