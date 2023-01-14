@@ -1,8 +1,8 @@
-**Methods**
+# Methods
 
 In this section, I listed the methods I used in logistic regression for binary classification of survival. Using the methods listed below, I aimed to pinpoint which predictors were highly significant in the survival detection of heart failure.
 
-***Logistic Regression***
+# Logistic Regression
 
 Logistic regression, also called a logit model, is used to model dichotomous outcome variables. In the logit model the log odds of the outcome are modeled as a linear combination of the predictor variables. The model is written as:
 
@@ -16,7 +16,7 @@ Here are the results of my full model:
 
 Looking at the R output, Ejection Fraction, Serum Creatinine and Time are highly significant since their p values are low. It is also seen that Age and Serum Sodium can be considered significant in the full model.
 
-***AIC***
+# AIC
 
 The Akaike Information Criterion (AIC) is a mathematical method for evaluating how well a model fits the data it was generated from. In statistics, AIC is used to compare different possible models and determine which one is the best fit for the data. AIC is calculated from:
 
@@ -32,7 +32,7 @@ The formula for AIC is written as:
 
 ![AIC](/Images/image7.png)
 
-***Chi-Square Test***
+# Chi-Square Test
 
 Chi-square formula is used to compare two or more statistical data sets. The chi-square formula is used in data that consist of variables distributed across various categories and helps us to understand whether that distribution is different from what one would expect by chance. It's extremely useful to test goodness of fit in linear regression by investigating Analysis of Deviance Table. The formula is written as:
 
@@ -44,7 +44,7 @@ Running Chi-Square Test on the full model, R output gives the results below:
 
 The difference between the null deviance and the residual deviance is a good indicator of how the full model is doing against the null model (a model with only the intercept). The wider the gap is, the better the fit is. Analyzing the table, we can see the drop in deviance when adding each variable one at a time.
 
-***Association of Predicted Probabilities and Observed Responses***
+# Association of Predicted Probabilities and Observed Responses
 
 This association is an important procedure assessing the predictive ability of a model. They are based on the number of pairs of observations with different response values, the number of concordant pairs, and the number of discordant pairs. A pair of observations with different observed responses is said to be concordant if the observation with the lower ordered response value has a lower predicted mean score than the observation with the higher ordered response value. If the observation with the lower ordered response value has a higher predicted mean score than the observation with the higher ordered response value, then the pair is discordant. If the pair is neither concordant nor discordant, it is a tie.
 
@@ -85,7 +85,7 @@ Looking at the R output of our full model:
 
 We see that Somer's D, Gamma and Concordance correlation coefficients are relatively high which means our model is highly significant.
 
-***Confusion Matrix and Statistics***
+# Confusion Matrix and Statistics
 
 One common way to evaluate the quality of a logistic regression model is to create a confusion matrix, which is a 2×2 table that shows the predicted values from the model vs. the actual values from the test dataset.
 
@@ -101,7 +101,7 @@ Looking at our R output:
 
 We see that the accuracy of our model is very high at 85%, misclassification error rate is at 15% and specificity of our model is at 92%. These results indicate that our model is a good fit.
 
-***ROC And AUC***
+# ROC And AUC
 
 AUC - ROC curve is a performance measurement for the classification problems at various threshold settings. ROC is a probability curve and AUC represents the degree or measure of separability. It tells how much the model can distinguish between classes. Higher the AUC, the better the model is at predicting 0 classes as 0 and 1 classes as 1. By analogy, the Higher the AUC, the better the model is.
 
