@@ -12,3 +12,5 @@ Cardiovascular diseases are conditions that affect the structures or function of
 All patients with HFrEF have concomitant diastolic dysfunction; in contrast, diastolic dysfunction may occur in the absence of systolic dysfunction.
 
 Doctors usually classify patients\' heart failure according to the severity of their symptoms. The table below describes the most used classification system, the New York Heart Association (NYHA) Functional Classification. It places patients in one of four categories based on how much they are limited during physical activity.
+
+![Classification](/Images/image3.png)
