@@ -115,6 +115,9 @@ And our AUC is:
 
 This result shows that our model is good standing at almost 0.9.
 
+
+# Finding the Best Fit
+
 Now that we know more about our full model, we will go ahead and look for a better model with lower AIC and compare the results we get from the optimal model to the full model.
 
 We will use stepwise regression approach which at each step gradually eliminates variables from the regression model to find a reduced model that best explains the data.
