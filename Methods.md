@@ -76,6 +76,94 @@ The formula is written as:
 
 Another indicator of the fitness of the model in logistic regression Kendall's Tau, which measures the relationship between two columns of ranked data. Again, the value of a correlation coefficient can range from -1 to 1, with -1 indicating a perfect negative relationship, 0 indicating no relationship, and 1 indicating a perfect positive relationship.
 
+![Kendall's Tau](/Images/image27.png)
+
+Looking at the R output of our full model:
+
+
+![Full Model](/Images/image11.png)
+
+We see that Somer's D, Gamma and Concordance correlation coefficients are relatively high which means our model is highly significant.
+
+***Confusion Matrix and Statistics***
+
+One common way to evaluate the quality of a logistic regression model is to create a confusion matrix, which is a 2×2 table that shows the predicted values from the model vs. the actual values from the test dataset.
+
+Confusion matrix can indicate important information regarding the fit of the model.
+
+**Sensitivity:** The "true positive rate" -- the percentage of individuals the model correctly predicted would default.
+
+**Specificity:** The "true negative rate" -- the percentage of individuals the model correctly predicted would not default.
+
+Looking at our R output:
+
+![Confusion Matrix](/Images/image12.png)
+
+We see that the accuracy of our model is very high at 85%, misclassification error rate is at 15% and specificity of our model is at 92%. These results indicate that our model is a good fit.
+
+***ROC And AUC***
+
+AUC - ROC curve is a performance measurement for the classification problems at various threshold settings. ROC is a probability curve and AUC represents the degree or measure of separability. It tells how much the model can distinguish between classes. Higher the AUC, the better the model is at predicting 0 classes as 0 and 1 classes as 1. By analogy, the Higher the AUC, the better the model is.
+
+Here is our ROC:
+
+![ROC](/Images/image13.png)
+
+And our AUC is:
+
+![AUC](/Images/image14.png)
+
+This result shows that our model is good standing at almost 0.9.
+
+Now that we know more about our full model, we will go ahead and look for a better model with lower AIC and compare the results we get from the optimal model to the full model.
+
+We will use stepwise regression approach which at each step gradually eliminates variables from the regression model to find a reduced model that best explains the data.
+
+Here's our R Output that shows us the reduced model that best explains the data:
+
+![Reduced Model](/Images/image15.png)
+
+Our stepwise regression approach shows us that using variables Time, Ejection Fraction, Serum Creatinine, Age and Serum Sodium significantly improves our model with AIC at 235.49.
+
+![Stepwise Regression](/Images/image16.png)
+
+We go ahead and look at the summary of our reduced model on R:
+
+![Reduced Model Summary](/Images/image17.png)
+
+We see that our model is highly significant with all the predictors in the model suggest that the reduced model is also a good fit improved AIC.
+
+![Deviance Table](/Images/image18.png)
+
+Again, the difference between the null deviance and the residual deviance is a good indicator of how the full model is doing against the null model (a model with only the intercept). The wider the gap is, the better the fit is. Analyzing the table, we can see the drop in deviance when adding each variable one at a time.
+
+![Predicted Probabilities](/Images/image19.png)
+
+Somers' D, Gamma, Tau-a and c correlation coefficients are highly significant in this model as well.
+
+![Confusion Matrix](/Images/image20.png)
+
+Our confusion matrix and statistics also show a high accuracy rate at 0.84 with specificity rate at 0.91
+
+Here's our ROC:
+
+![ROC][/Images/image21.png]
+
+And our AUC is:
+
+![AUC][/Images/image22.png]
+
+This result also shows that our model is a good fit at 0.89
+
+
+
+
+
+
+
+
+
+
 
 
 
