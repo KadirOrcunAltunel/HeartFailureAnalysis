@@ -64,11 +64,13 @@ The formula is written as:
 
 -   **Goodman-Kruskal Gamma**
 
-> Goodman-Kruskal gamma (γ) shows how many more concordant than discordant pairs exist divided by the total number of pairs excluding ties. The use the Goodman-Kruskal gamma to measure the association between the ordinal variables is another important indicator of the fitness of model in logistic regression.
->
-> Perfect association exists when \|γ\| = 1. In ordinal and binary logistic regression, if X and Y are independent, then γ = 0.
+Goodman-Kruskal gamma (γ) shows how many more concordant than discordant pairs exist divided by the total number of pairs excluding ties. The use the Goodman-Kruskal gamma to measure the association between the ordinal variables is another important indicator of the fitness of model in logistic regression.
+
+Perfect association exists when \|γ\| = 1. In ordinal and binary logistic regression, if X and Y are independent, then γ = 0.
 
 The formula is written as:
 
-> **GAMMA =** **(N~C~ -- N~D~) / (N~C~ + N~D~)**
+
+
+
 
