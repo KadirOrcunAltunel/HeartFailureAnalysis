@@ -70,6 +70,11 @@ Perfect association exists when \|γ\| = 1. In ordinal and binary logistic regre
 
 The formula is written as:
 
+![Kruskal Gamma](/Images/image26.png)
+
+-   **Kendall's Tau**
+
+Another indicator of the fitness of the model in logistic regression Kendall's Tau, which measures the relationship between two columns of ranked data. Again, the value of a correlation coefficient can range from -1 to 1, with -1 indicating a perfect negative relationship, 0 indicating no relationship, and 1 indicating a perfect positive relationship.
 
 
 
